@@ -71,7 +71,7 @@ nav:
   - 'Profiling' : profiling.md
   - Contributors Guides:
     - 'Contributing to vLLM TPU': contributing.md
-    - 'Buildkite CI': buildkite.md
+    - 'Adding a New Model to CI': buildkite.md
 plugins:
   - search
   - same-dir
