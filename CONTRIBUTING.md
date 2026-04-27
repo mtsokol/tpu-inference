@@ -23,13 +23,13 @@ If you encounter a bug or have a feature request, please search [existing issues
 We choose to follow a similar directory structure as vLLM:
 
 - `tpu_inference/layers/`:
-  - `common` contains layers that are common to both vLLM and JAX
-  - `jax` contains layers that are only used by JAX models
-  - `vllm` contains layers that are only used by vLLM models
+    - `common` contains layers that are common to both vLLM and JAX
+    - `jax` contains layers that are only used by JAX models
+    - `vllm` contains layers that are only used by vLLM models
 - `tpu_inference/models/`:
-  - `common` contains model implementations/functionalities that are used by both vLLM and JAX
-  - `jax` contains model implementations/functionalities that are only used by JAX models
-  - `vllm` contains model implementations/functionalities that are only used by vLLM models
+    - `common` contains model implementations/functionalities that are used by both vLLM and JAX
+    - `jax` contains model implementations/functionalities that are only used by JAX models
+    - `vllm` contains model implementations/functionalities that are only used by vLLM models
 
 ### Torchax vs JAX-Native implementation
 We prefer enabling Pytorch based vLLM models via Torchax first and then following up with integrating JAX-Native/FLAX implementation of the models.
